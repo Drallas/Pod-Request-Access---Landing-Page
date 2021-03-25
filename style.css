@@ -1,0 +1,29 @@
+/* Font imports */
+
+/* Variables */
+:root {
+    /* Primary Colors */
+    --color-name: value;
+    /* Neutral Colors */
+ 
+    /*  Typography -  (weight ?) */
+}
+
+/*  Small CSS Reset */
+html {
+
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+}
+
+/* Header Section */
+
+/* Tags Section */
+
+/* Main Section */
+
+/* Footer */
