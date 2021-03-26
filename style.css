@@ -26,14 +26,17 @@ html {
 
 body {
     font-family: var(--chivo);
+    
 }
 
 /* Background  */
 .wrapper {
-    min-width: 23.4375rem;
+    min-width: 100vw;
+    min-height: 100vh;
 }
 
 .background-img {
+    
   background-image: linear-gradient(
       hsla(224, 35%, 11%, 0.9),
       hsla(224, 35%, 11%, 0.9)
@@ -85,6 +88,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin: 0 1.5rem 3rem;
+  opacity: 0.7;
 }
 
 .icons img:nth-child(-n + 2) {
