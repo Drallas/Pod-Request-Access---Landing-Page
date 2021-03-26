@@ -1,12 +1,20 @@
 /* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
 
 /* Variables */
 :root {
     /* Primary Colors */
-    --color-name: value;
+    --light-green: hsl(157, 74%, 62%);
+    --dark-grey: hsl(225, 26%, 23%);
+    --medium-grey: hsl(225, 21%, 45%);
+    --light-grey: hsl(225, 40%, 83% );
+    --grey-black: hsl(224, 35%, 11%);
+    --white: hsl(0, 0%, 100%) ;
+
     /* Neutral Colors */
  
     /*  Typography -  (weight ?) */
+    --chivo: 'Chivo', sans-serif;
 }
 
 /*  Small CSS Reset */
@@ -19,6 +27,8 @@ html {
 body {
     font-size: 100%;
 }
+
+/* Background Section */
 
 /* Header Section */
 
