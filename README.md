@@ -49,12 +49,11 @@ Your users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Learning more about the utility of Linear Gradients. The mobile layout for this challenge has a darkened background Image. I first extracted the hex for the color to darken the image from Figma and 'converted' (too easy in VSCode) it to HSLA values. The value from Figma seems a bit too light so i increased value.
 
-To see how you can add code snippets, see below:
+```css
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('landingpagepic.jpg');
 
-```html
-<h1>Some HTML code I'm proud of</h1>
 ```
 ### Continued development
 
@@ -62,7 +61,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [How to Background Image](https://www.codegrepper.com/code-examples/css/how+to+darken+background+image+with+css) - This helped me to create the mobile darkened Background-Image.
 
 ## Author
 
