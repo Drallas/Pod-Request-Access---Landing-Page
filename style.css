@@ -7,7 +7,7 @@
     --light-green: hsl(157, 74%, 62%);
     --dark-grey: hsl(225, 26%, 23%);
     --medium-grey: hsl(225, 21%, 45%);
-    --light-grey: hsl(225, 40%, 83% );
+    --light-grey: hsl(225, 40%, 83%);
     --grey-black: hsl(224, 35%, 11%);
     --white: hsl(0, 0%, 100%) ;
 
@@ -26,20 +26,65 @@ html {
 
 body {
     font-size: 100%;
+    
 }
 
 /* Background  */
+
+.wrapper {
+    /* Temp value */
+    height: 667px;
+}
+
 .background-img {
-    background-image: linear-gradient(rgba(18, 23, 37, 0.8), rgba(18, 23, 37, 0.8)) , url(./assets/mobile/image-host.jpg);
+    background-image: linear-gradient(hsla(224, 35%, 11%, 0.9), hsla(224, 35%, 11%, 0.9)) , url(./assets/mobile/image-host.jpg);
     background-position: top center;
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
+
 
 /* Header Section */
 
-/* Tags Section */
+.logo {
+    margin: 3.875rem 7.5rem 3.5625rem ;
+}
+
+/* Main Section */
+.cta h1 {
+    font-family: var(--chivo);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 38px;
+    color: var(--light-green);
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+}
+
+.cta span {
+    color: var(--white);
+}
+
+.cta p {
+    display: inline-block;
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--light-grey);
+    text-align: center;
+    margin: 0 0 2.0625rem 0;
+    padding: 0 25px;
+}
+
+
 
 /* Main Section */
 
 /* Footer */
+.decoration {
+    visibility: hidden;
+}
