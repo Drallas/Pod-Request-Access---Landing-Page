@@ -62,6 +62,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [How to Background Image](https://www.codegrepper.com/code-examples/css/how+to+darken+background+image+with+css) - This helped me to create the mobile darkened Background-Image.
+- [Pixel to Rem VScode extension](https://github.com/sainoba/vscode-px-to-rem) - Had enough of divding px values / 16, 'Option / Z ' works faster.
 
 ## Author
 
