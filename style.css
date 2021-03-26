@@ -28,7 +28,15 @@ body {
     font-size: 100%;
 }
 
-/* Background Section */
+/* Background  */
+.background-img {
+
+    background-image: url(./assets/mobile/image-host.jpg);
+    background-position: left 0rem top 0rem, right 0rem bottom 0rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
 
 /* Header Section */
 
