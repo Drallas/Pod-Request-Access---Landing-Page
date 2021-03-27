@@ -104,9 +104,10 @@ body {
 }
 
 /* Request Access Section */
+
 .access {
-  display: flex;
-  justify-content: center;
+    width: 20.4375rem;
+    margin: 0 auto;
 }
 
 .form__email {
@@ -121,6 +122,7 @@ body {
 .form__email::placeholder {
   opacity: 0.5;
 }
+
 
 input {
   font-size: 0.875rem;
@@ -194,22 +196,26 @@ body {
 
 .cta p {
     text-align: left;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
     padding: 0;
     margin-right: 11.875rem;
 }
 
 .icons {
-    order: 3; 
+    order: 3;
+    justify-content: flex-start;
+    margin: 0rem ;
 }
 
 .icons img:nth-child(-n + 2) {
   height: 1.8125rem;
+  margin-right: 2.5625rem;
 }
 
 .icons img:nth-child(3) {
   height: 1.125rem;
+  margin-right: 2.5625rem;
 }
 
 .icons img:nth-child(4) {
@@ -218,10 +224,24 @@ body {
 
 .access {
     order: 2;
+    width: 100%;
+    align-self: flex-start;
     margin-bottom: 4rem;
 }
 
+.form__email {
+    width: 26.6875rem;
+    height: 3.5rem;
+}
 
+.form__button {
+    position: absolute;
+    width: 10.125rem;
+    height: 2.875rem;
+    z-index: 2;
+    margin-top: 0.3125rem;
+    right: 17.5625rem;
+}
 
 .decoration {
     visibility: visible;
