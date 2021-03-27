@@ -169,12 +169,59 @@ body {
 
 .logo {
     text-align: left;
-    margin: 3.125rem 0 0 2.4375rem;
+    margin: 3.125rem 0 9.5rem 2.4375rem;
+}
+
+.block  {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--grey-black);
+    margin: 0 5.875rem 16.0625rem 2.4375rem ;
+    
 }
 
 .cta {
+    order: 1;
     background-color: var(--grey-black);
+    margin: 5.8125rem 0 1.9375rem 0;
 }
+
+.cta h1 {
+    text-align: left;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.cta p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0;
+    margin-right: 11.875rem;
+}
+
+.icons {
+    order: 3; 
+}
+
+.icons img:nth-child(-n + 2) {
+  height: 1.8125rem;
+}
+
+.icons img:nth-child(3) {
+  height: 1.125rem;
+}
+
+.icons img:nth-child(4) {
+  height: 1.625rem;
+}
+
+.access {
+    order: 2;
+    margin-bottom: 4rem;
+}
+
+
 
 .decoration {
     visibility: visible;
