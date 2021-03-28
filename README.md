@@ -14,7 +14,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
+
 
 
 ## Overview
@@ -26,8 +27,8 @@ Your users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 - Receive an error message when the form is submitted if:
-  - The `Email address` field is empty should show "Oops! Please add your email"
-  - The email is not formatted correctly should show "Oops! Please check your email"
+  - The `Email address` field is empty should show "**Oops! Please add your email**"
+  - The email is not formatted correctly should show "**Oops! Please check your email**"
 
 ### Screenshot
 
@@ -69,6 +70,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Frontend Mentor - [@Drallas](https://www.frontendmentor.io/profile/Drallas)
 - Dev.to - [@Drallas](https://dev.to/drallas)
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
