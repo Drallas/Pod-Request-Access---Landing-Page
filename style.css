@@ -188,7 +188,7 @@ input {
   .cta h1 {
     text-align: left;
     font-size: 3rem;
-    line-height: 56px;
+    line-height: 3.5rem;
     margin-bottom: 1.9375rem;
   }
 
@@ -257,8 +257,8 @@ input {
 @media only screen and (min-width: 1025px) {
   .background-img {
     background-image: url(./assets/desktop/image-host.jpg);
-    background-position: top 130px right;
-    background-size: 888px;
+    background-position: top 8.125rem right;
+    background-size: 55.5rem;
     background-repeat: no-repeat;
   }
 
@@ -271,18 +271,18 @@ input {
   }
 
   .cta h1 {
-    font-size: 52px;
-    line-height: 62px;
-    margin-bottom: 24px;
+    font-size: 3.25rem;
+    line-height: 3.875rem;
+    margin-bottom: 1.5rem;
   }
 
   .cta p {
-    margin-right: 278px;
+    margin-right: 17.375rem;
   }
 
   .block {
-    margin: 103px 552px 0 165px;
-    min-width: 625px;
+    margin: 6.4375rem 34.5rem 0 10.3125rem;
+    min-width: 39.0625rem;
   }
 
   .decoration {
