@@ -188,8 +188,7 @@ input {
   .cta h1 {
     text-align: left;
     font-size: 3rem;
-    line-height: 3rem;
-    line-height: 3.5rem;
+    line-height: 56px;
     margin-bottom: 1.9375rem;
   }
 
@@ -272,6 +271,8 @@ input {
   }
 
   .cta h1 {
+    font-size: 52px;
+    line-height: 62px;
     margin-bottom: 24px;
   }
 
@@ -282,10 +283,6 @@ input {
   .block {
     margin: 103px 552px 0 165px;
     min-width: 625px;
-  }
-
-  .access {
-    margin-bottom: 73px;
   }
 
   .decoration {
