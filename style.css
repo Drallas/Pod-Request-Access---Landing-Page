@@ -220,9 +220,14 @@ input {
 
   .access {
     order: 2;
-    width: 100%;
+    width: 500px;
+    height: 3.5rem;
     align-self: flex-start;
     margin-bottom: 4rem;
+  }
+
+  .form__component {
+      display: inline-block;
   }
 
   .form__email {
@@ -231,12 +236,11 @@ input {
   }
 
   .form__button {
-    position: absolute;
-    width: 10.125rem;
-    height: 2.875rem;
-    z-index: 2;
-    margin-top: 0.3125rem;
-    right: 17.5625rem;
+      width: 10.125rem;
+      height: 2.875rem;
+      margin-left: -34.5%;
+
+
   }
 
   .decoration {
