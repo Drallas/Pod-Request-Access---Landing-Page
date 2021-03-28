@@ -42,6 +42,7 @@ body {
     url(./assets/mobile/image-host.jpg);
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: 100vw 100vh;
 }
 
 /* Header Section */
@@ -187,6 +188,7 @@ input {
     text-align: left;
     font-size: 3rem;
     line-height: 3rem;
+    line-height: 3.5rem;
   }
 
   .cta p {
@@ -221,12 +223,12 @@ input {
     order: 2;
     width: 500px;
     height: 3.5rem;
-    align-self: flex-start;
+    margin-left: 0px;
     margin-bottom: 4rem;
   }
 
   .form__component {
-      display: inline-block;
+    display: inline-block;
   }
 
   .form__email {
@@ -235,11 +237,9 @@ input {
   }
 
   .form__button {
-      width: 10.125rem;
-      height: 2.875rem;
-      margin-left: -34.5%;
-
-
+    width: 10.125rem;
+    height: 2.875rem;
+    margin-left: -34.5%;
   }
 
   .decoration {
@@ -263,9 +263,10 @@ input {
     margin: 102px 0 6.4375rem 10.3125rem;
   }
 
-    .block  {
-        margin: 103px 552px 0 165px;
-    }
+  .block {
+    margin: 6.4375rem 34.5rem 8.125rem 10.3125rem;
+    min-width: 625px;
+  }
 
   .decoration {
     visibility: visible;
