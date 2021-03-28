@@ -51,6 +51,7 @@ body {
 .logo {
   margin: 3.875rem 7.5rem 3.5625rem;
   text-align: center;
+  max-height: 3.5rem;
 }
 
 /* Main Section */
