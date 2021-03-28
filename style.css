@@ -157,8 +157,8 @@ input {
     font-size: 12px;
     color: var(--sec-light-red);
     visibility: hidden;
-    margin-left: 30px;
-    margin-top: -10px;
+    margin-left: 80px;
+    margin-top: 10px;
 }
 
 /* If .form-control has error class atached */
@@ -265,6 +265,11 @@ input {
     height: 2.875rem;
     margin-left: -34.5%;
   }
+
+  .form-control small {
+    margin-left: 30px;
+    margin-top: -10px;
+}
 
   .decoration {
     visibility: visible;
