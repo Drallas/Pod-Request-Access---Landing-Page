@@ -31,10 +31,6 @@ body {
 }
 
 /* Background  */
-.wrapper {
-  min-width: 100%;
-  min-height: 100%;
-}
 
 .background-img {
   background-image: linear-gradient(
