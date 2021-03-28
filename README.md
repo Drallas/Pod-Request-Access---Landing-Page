@@ -22,6 +22,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### The challenge
 
+Coding Time : 8 hrs 53 mins
+
 Your users should be able to:
 
 - View the optimal layout depending on their device's screen size
@@ -32,12 +34,12 @@ Your users should be able to:
 
 ### Screenshot
 
-![](images/screenshot.png)
+![](./assets/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Drallas/Pod-Request-Access---Landing-Page)
+- Live Site URL: [GitHub Live](https://drallas.github.io/Pod-Request-Access---Landing-Page/)
 
 ## My process
 
@@ -45,8 +47,8 @@ Your users should be able to:
 
 - Semantic HTML5 markup
 - CSS
+- BEM
 - JavaScript
-- Add more...
 
 ### What I learned
 
@@ -58,7 +60,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('landin
 ```
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I need to become more comforatble adding JavaScript components, i know a bit how to code, but i feel some resistance! 
 
 ### Useful resources
 
