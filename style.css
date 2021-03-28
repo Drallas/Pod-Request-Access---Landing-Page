@@ -245,23 +245,19 @@ input {
 
   .access {
     order: 2;
-    width: 500px;
+    width: 31.25rem;
     height: 3.5rem;
     margin-left: 0px;
     margin-bottom: 4rem;
   }
 
-  .form__control {
-    display: inline-block;
-  }
-
   .form__email {
-    width: 26.6875rem;
+    width: 410px;
     height: 3.5rem;
   }
 
   .form__button {
-    width: 10.125rem;
+    width: 162px;
     height: 2.875rem;
     margin-left: -34.5%;
   }
