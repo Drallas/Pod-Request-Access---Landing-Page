@@ -106,8 +106,8 @@ body {
 /* Request Access Section */
 
 .access {
-    width: 20.4375rem;
-    margin: 0 auto;
+  width: 20.4375rem;
+  margin: 0 auto;
 }
 
 .form__email {
@@ -122,7 +122,6 @@ body {
 .form__email::placeholder {
   opacity: 0.5;
 }
-
 
 input {
   font-size: 0.875rem;
@@ -154,99 +153,121 @@ input {
   visibility: hidden;
 }
 
-
 /* Tablet Layout */
 @media only screen and (min-width: 600px) {
-
-body {
+  body {
     background-color: var(--grey-black);
-}
+  }
 
-.background-img {
-    background-image: url(./assets/tablet/image-host.jpg) ;
+  .background-img {
+    background-image: url(./assets/tablet/image-host.jpg);
     background-position: top right;
-    background-size: 491px ; 
+    background-size: 30.6875rem;
     background-repeat: no-repeat;
-}
+  }
 
-.logo {
+  .logo {
     text-align: left;
     margin: 3.125rem 0 9.5rem 2.4375rem;
-}
+  }
 
-.block  {
+  .block {
     display: flex;
     flex-direction: column;
     background-color: var(--grey-black);
-    margin: 0 5.875rem 16.0625rem 2.4375rem ;
-    
-}
+    margin: 0 5.875rem 16.0625rem 2.4375rem;
+  }
 
-.cta {
+  .cta {
     order: 1;
     background-color: var(--grey-black);
     margin: 5.8125rem 0 1.9375rem 0;
-}
+  }
 
-.cta h1 {
+  .cta h1 {
     text-align: left;
     font-size: 3rem;
     line-height: 3rem;
-}
+  }
 
-.cta p {
+  .cta p {
     text-align: left;
     font-size: 1.125rem;
     line-height: 1.75rem;
     padding: 0;
     margin-right: 11.875rem;
-}
+  }
 
-.icons {
+  .icons {
     order: 3;
     justify-content: flex-start;
-    margin: 0rem ;
-}
+    margin: 0rem;
+  }
 
-.icons img:nth-child(-n + 2) {
-  height: 1.8125rem;
-  margin-right: 2.5625rem;
-}
+  .icons img:nth-child(-n + 2) {
+    height: 1.8125rem;
+    margin-right: 2.5625rem;
+  }
 
-.icons img:nth-child(3) {
-  height: 1.125rem;
-  margin-right: 2.5625rem;
-}
+  .icons img:nth-child(3) {
+    height: 1.125rem;
+    margin-right: 2.5625rem;
+  }
 
-.icons img:nth-child(4) {
-  height: 1.625rem;
-}
+  .icons img:nth-child(4) {
+    height: 1.625rem;
+  }
 
-.access {
+  .access {
     order: 2;
     width: 100%;
     align-self: flex-start;
     margin-bottom: 4rem;
-}
+  }
 
-.form__email {
+  .form__email {
     width: 26.6875rem;
     height: 3.5rem;
-}
+  }
 
-.form__button {
+  .form__button {
     position: absolute;
     width: 10.125rem;
     height: 2.875rem;
     z-index: 2;
     margin-top: 0.3125rem;
     right: 17.5625rem;
-}
+  }
 
-.decoration {
+  .decoration {
     visibility: visible;
-    position:absolute;
+    position: absolute;
     bottom: 0rem;
     left: 1.875rem;
+  }
 }
+
+/* Desktop Layout */
+@media only screen and (min-width: 992px) {
+  .background-img {
+    background-image: url(./assets/desktop/image-host.jpg);
+    background-position: top 130px right;
+    background-size: 888px;
+    background-repeat: no-repeat;
+  }
+
+  .logo {
+    margin: 102px 0 6.4375rem 10.3125rem;
+  }
+
+    .block  {
+        margin: 103px 552px 0 165px;
+    }
+
+  .decoration {
+    visibility: visible;
+    left: unset;
+    right: 0px;
+    margin-bottom: 4.875rem;
+  }
 }
