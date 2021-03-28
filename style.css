@@ -61,7 +61,7 @@ body {
   color: var(--light-green);
   text-align: center;
   text-transform: uppercase;
-  margin: 0 0 1rem 0;
+  margin: 0 0 1.5rem 0;
 }
 
 .cta span {
@@ -111,6 +111,7 @@ body {
 }
 
 .form__email {
+  outline: none;
   width: 18.875rem;
   height: 2.875rem;
   background-color: var(--dark-grey);
@@ -181,7 +182,7 @@ input {
   .cta {
     order: 1;
     background-color: var(--grey-black);
-    margin: 5.8125rem 0 1.9375rem 0;
+    margin: 5.8125rem 0 0 0;
   }
 
   .cta h1 {
@@ -189,7 +190,9 @@ input {
     font-size: 3rem;
     line-height: 3rem;
     line-height: 3.5rem;
+    margin-bottom: 1.9375rem;
   }
+
 
   .cta p {
     text-align: left;
@@ -197,6 +200,7 @@ input {
     line-height: 1.75rem;
     padding: 0;
     margin-right: 11.875rem;
+    margin-bottom: 2.5rem;
   }
 
   .icons {
@@ -251,7 +255,7 @@ input {
 }
 
 /* Desktop Layout */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1025px) {
   .background-img {
     background-image: url(./assets/desktop/image-host.jpg);
     background-position: top 130px right;
@@ -260,12 +264,28 @@ input {
   }
 
   .logo {
-    margin: 102px 0 6.4375rem 10.3125rem;
+    margin: 6.375rem 0 6.4375rem 10.3125rem;
+  }
+
+  .cta {
+    margin: 88px 0 0 0;
+  }
+
+  .cta h1 {
+    margin-bottom: 24px;
+  }
+
+  .cta p {
+    margin-right: 278px;
   }
 
   .block {
-    margin: 6.4375rem 34.5rem 8.125rem 10.3125rem;
+    margin: 103px 552px 0 165px;
     min-width: 625px;
+  }
+
+  .access {
+    margin-bottom: 73px;
   }
 
   .decoration {
