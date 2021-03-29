@@ -33,14 +33,11 @@ body {
 /* Background  */
 
 .background-img {
-  background-image: linear-gradient(
-      hsla(224, 35%, 11%, 0.9),
-      hsla(224, 35%, 11%, 0.9)
-    ),
-    url(./assets/mobile/image-host.jpg);
+  background-image: linear-gradient(to bottom, hsla(224, 35%, 11%, 0.9), hsla(224, 35%, 11%, 0.9)), url(./assets/mobile/image-host.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: 100vw 100vh;
+  background-size: cover ;
+  min-height: 100vh ;
 }
 
 /* Header Section */
